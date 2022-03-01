@@ -1,8 +1,8 @@
 <?php
-$servername = "127.0.0.1";
-$username   = "root";
-$password   = "";
-$dbname     = "ilcs";
+$servername = "remotemysql.com";
+$username   = "ESUpPxZ2Wa";
+$password   = "7rPF5nIYtp";
+$dbname     = "ESUpPxZ2Wa";
 
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
